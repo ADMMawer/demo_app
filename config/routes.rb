@@ -1,4 +1,6 @@
 DemoApp::Application.routes.draw do
+  resources :microposts
+
   resources :users #Creates a table based on the action of the controller, with corresponding URLS. REST = is a standard structure for URL's and their HTTP requests. 
 
   # The priority is based upon order of creation:
