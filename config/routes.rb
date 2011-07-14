@@ -1,8 +1,10 @@
 DemoApp::Application.routes.draw do
   resources :microposts
 
-  resources :users #Creates a table based on the action of the controller, with corresponding URLS. REST = is a standard structure for URL's and their HTTP requests. 
-
+  resources :users 
+  
+  #^Creates a table based on the action of the controller, with corresponding URLS. REST = is a standard structure for URL's and their HTTP requests. 
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -60,3 +62,7 @@ DemoApp::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id(.:format)))'
 end
+
+
+
+
