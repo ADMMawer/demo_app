@@ -1,5 +1,5 @@
 DemoApp::Application.routes.draw do
-  resources :users
+  resources :users #Creates a table based on the action of the controller, with corresponding URLS. 
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
